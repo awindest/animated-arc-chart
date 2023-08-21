@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Arc Object</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+
+        html {
+            font-family: 'Inter', sans-serif;
+            font-feature-settings: 'zero', 'tnum';
+            /* 'zero' => adds a slash to a zero to distinguish from an 'O' */
+            /* 'tnum' => change variable-spaced numbers to mono-spaced for formatting */
+        }
+
+        .centerCounter {
+            /* it seems these don't have an effect */
+            font-feature-settings: 'zero', 1;
+            font-feature-settings: 'tnum', 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="arcchart-sources1"></div>
+    <!-- <div id="arcchart-sources2"></div>
+    <div id="arcchart-sources3"></div> -->
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/MultiArcChart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
